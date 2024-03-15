@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import Modal from "@/components/common/Modal.vue";
+import Modal from "@/components/common/Modal/Modal.vue";
 
 export default {
   name: "SectionOne",

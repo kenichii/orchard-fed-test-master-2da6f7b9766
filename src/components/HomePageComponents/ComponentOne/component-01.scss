@@ -1,0 +1,23 @@
+.component-1 {
+  gap: 20px;
+}
+// .section-info {
+//   width: 35%;
+// }
+
+.section-one {
+  width: 100%; // Take full width on mobile
+}
+
+.section-two {
+  width: calc(50% - 20px); // Default width for desktop
+}
+
+@media screen and (max-width: 768px) {
+  .component-1 {
+    flex-wrap: wrap;
+  }
+  .section-two {
+    width: 100%; // Full width on mobile
+  }
+}

@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import SectionImageArticle from '../common/SectionImageArticle.vue';
+import SectionImageArticle from '../../common/SectionImageArticle/SectionImageArticle.vue';
 
 export default {
   name: "ComponentTwo",
@@ -54,39 +54,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.title {
-  font-size: 3em;
-}
-.component-2 {
-  margin-top: 10rem;
-}
-.articles {
-  margin-top: 3rem;
-}
-.articles {
-  margin-top: 3rem;
-}
-
-.article {
-  width: calc(33.333% - 20px); /* 3 columns on desktop */
-  margin-bottom: 20px;
-}
-
-@media screen and (max-width: 1024px) {
-  .article {
-    width: calc(50% - 20px); /* 2 columns on tablets */
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .articles {
-    margin-top: 1.5rem;
-  }
-  .article {
-    width: calc(100% - 20px); /* 1 column on mobile */
-  }
-  .title {
-    font-size: 1.5rem;
-  }
-}
+@import "./component-02.scss";
 </style>

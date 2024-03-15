@@ -1,6 +1,6 @@
 <template>
   <div class="section-two-wrapper flex flex-column">
-    <h2 class="title">Answer your body's needs</h2>
+    <h2 class="title">ANSWER YOUR BODY'S NEEDS</h2>
     <p>
       The way ingredients are sourced affects the way we nourish our bodies. Author Mark Schatzer believes our body naturally devolops an appetite for the foods and nutrients it
       needs to be healthy, but that artificial flavourings are getting in the way. This can be reversed by focusing on high-quality ingredients and being mindful as your appetite
@@ -23,7 +23,6 @@ export default {
 }
 
 .title {
-  text-transform: uppercase;
   border-bottom: 1px solid white;
   padding-bottom: 10px;
   font-size: 28px;

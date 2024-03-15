@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import ComponentOne from "./HomePageComponents/component-01.vue";
-import ComponentTwo from "./HomePageComponents/component-02.vue";
+import ComponentOne from "./HomePageComponents/ComponentOne/component-01.vue";
+import ComponentTwo from "./HomePageComponents/ComponentTwo/component-02.vue";
 
 export default {
   name: "HomePage",
