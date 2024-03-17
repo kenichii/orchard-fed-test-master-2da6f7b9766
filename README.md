@@ -1,6 +1,6 @@
-**To Run Repository**: 
--> npm run serve
-**Currently deployed to this URL**: https://orchard-fed-test-master-2da6f7b9766-6akmn9myv-kenichii.vercel.app
+## **To Run Repository**: 
+* npm run serve
+* **Currently deployed to this URL**: https://orchard-fed-test-master-2da6f7b9766-6akmn9myv-kenichii.vercel.app
 
 # Interface Development Test
 
